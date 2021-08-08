@@ -1,0 +1,42 @@
+{
+  "name": "wdcc-hackathon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Metarock/WDCC-Hackathon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Metarock/WDCC-Hackathon/issues"
+  },
+  "homepage": "https://github.com/Metarock/WDCC-Hackathon#readme",
+  "dependencies": {
+    "@devexpress/dx-react-core": "^2.7.6",
+    "@devexpress/dx-react-scheduler": "^2.7.6",
+    "@devexpress/dx-react-scheduler-material-ui": "^2.7.6",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.2",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.5",
+    "react-bootstrap": "^1.6.1",
+    "react-chrome-dino": "^0.1.3",
+    "react-select": "^4.3.1",
+    "react-toastify": "^7.0.4",
+    "reactjs-popup": "^2.0.5",
+    "semantic-ui-react": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

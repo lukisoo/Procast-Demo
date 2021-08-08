@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://procast:123@hackathon.ov40j.mongodb.net/procastDB?retryWrites=true&w=majority"
+ }
+ 
