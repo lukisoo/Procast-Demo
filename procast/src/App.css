@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.pageTitle {
+  float: left;
+  margin: 0;
+  width: 100%;
+  height: 15vh;
+  background-color: #B4D2E7;
+  margin: 0;
+}
+
+.centreHomepage {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.centreHomepage2 {
+  width: 40%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.navbar {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#F8F8F8;
+  transition: .5s ease;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar a {
+  font-size: 1.4vw;
+  color: black;
+  padding: 0 5% 0 5%;
+  margin: 2vh 0 2vh 0;
+  padding-bottom: 0;
+  text-decoration: none;
+  background: linear-gradient(180deg, #F8F8F8 60%, #B1C2CD 40%);
+}
+
+.noteBackground {
+  height: 100vh;
+  width: 100%;
+}
+
+.note {
+  margin: 7%;
+  background-color: #F8F8F8;
+  border-radius: 2%;
+  height: 150vh;
+}
+
+.writeNote {
+  height: 100%;
+  width: 100%;
+  background-color: #F8F8F8;
+  border: 0 solid #F8F8F8;
+}
+
+.noteTitle {
+  width: 80%;
+  margin: 5% 10% 0 10%;
+  height: 6vh;
+  border: none;
+  font-size: 3rem;
+  background-color: #F8F8F8;
+}
+
+.noteContent {
+  width: 80%;
+  margin: 0 10% 0 10%;
+  padding: 1% 1% 300px 1%;
+  background-color: #F8F8F8;
+  border: none;
+  font-size: 1rem;
+}
+
+.toDoList {
+  padding: 6% 0 0 0;
+  background-color: #94C5CC;
+  height: 120vh;
+  margin: 3%;
+  border-radius: 5px;
+}
+
+.toDoItem {
+  width: 60%;
+  margin: 2% 15.5% 2% 15.5%;
+  padding: 2%;
+  border: 2px solid #94C5CC;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.toDoItem2 {
+  width: 60%;
+  margin: 0 15.5% 0 15.5%;
+  padding: 0 2% 0 2%;
+}
+
+.timerScreen {
+  width: 100%;
+  height: 20vh;
+  text-align: center;
+  background-color: #94C5CC;
+}
